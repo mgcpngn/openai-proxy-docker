@@ -8,7 +8,8 @@
 
 验证代理是否正常工作
 我创建了一个测试脚本，可以帮您验证代理是否正常工作。您需要一个有效的OpenAI API密钥来进行测试：
-bashCopy./test-proxy.sh YOUR_OPENAI_API_KEY
+./test.sh YOUR_OPENAI_API_KEY
+
 这个脚本会执行三项测试：
 
 测试健康检查端点
