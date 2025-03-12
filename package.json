@@ -1,0 +1,15 @@
+{
+  "name": "openai-api-proxy",
+  "version": "1.0.0",
+  "description": "Simplified reverse proxy for OpenAI API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-connection.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "http-proxy": "^1.18.1"
+  }
+}

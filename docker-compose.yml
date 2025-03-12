@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  openai-proxy:
+    build: .
+    network_mode: "host"  # 使用主机网络模式
+    environment:
+      - PORT=3000
+      # - API_KEY=your_openai_api_key  # 取消注释并设置您的API密钥，如果您想为所有请求使用单一密钥
+    restart: always
